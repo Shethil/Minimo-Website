@@ -184,10 +184,57 @@ header{
 }
 /*blog end*/
 
+/*news start*/
+
 .news{
-	min-height: 400px;
-	background-color: #ddd;
+	background-color: #f0f0f0;
+	padding: 70px 0;
+	margin-top: 120px
 }
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	font-size: 32px;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{                 
+	position: relative;  
+	width: 400px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+
+/*news end*/
 
 
 /*blog2 start*/
